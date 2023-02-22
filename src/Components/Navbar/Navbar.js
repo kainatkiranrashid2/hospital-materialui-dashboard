@@ -30,8 +30,15 @@ const Navbar = () => {
     setValue(newValue);
   };
 
+  {
+    /* .css-5ts1sv-MuiButtonBase-root-MuiTab-root.Mui-selected */
+  }
+
   const tabStyle = {
-    color: theme.palette.text.main,
+    "&.Mui-selected": {
+      color: theme.palette.text.main,
+    },
+    color: theme.palette.text.navbarSec,
     fontSize: theme.typography.overline.fontSize,
     fontFamily: theme.typography.overline.fontFamily,
     fontWeight: theme.typography.overline.fontWeight,
@@ -70,12 +77,11 @@ const Navbar = () => {
                 aria-label="nav tabs example">
                 <Tab
                   sx={tabStyle}
-                  value="/dashboard"
+                  value="/"
                   label="Dashboard"
                   component={Link}
-                  to="dashboard"
+                  to="/"
                 />
-
                 <Tab
                   sx={tabStyle}
                   value="/opd"

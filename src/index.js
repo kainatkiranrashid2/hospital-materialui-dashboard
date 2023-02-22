@@ -25,9 +25,9 @@ function Root() {
 root.render(
   <Router>
     <Routes>
-      <Route path="/login" element={<Root />} />
+      <Route path="login" element={<Root />} />
       <Route path="/" element={<App />} exact>
-        <Route path="dashboard" element={<Dashboard />} />
+        <Route path="" element={<Dashboard />} />
         <Route path="opd" element={<Opd />} />
         <Route path="labCollabs" element={<LabCollabs />} />
         <Route path="indoor" element={<Indoor />} />
