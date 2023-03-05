@@ -202,7 +202,7 @@ const Dashboard = () => {
             </LightGreenButton>
             <Button
               style={{
-                backgroundColor: "#F4FAFB",
+                backgroundColor: "#E8F7FD",
                 // transform: Scale(2),
               }}
               borderRadius=" 50px"
@@ -210,7 +210,7 @@ const Dashboard = () => {
                 <DeleteOutlineIcon
                   style={{
                     height: "1em",
-                    color: "#AFDECC",
+                    color: "#87CEEB",
                   }}
                 />
               }
@@ -244,8 +244,8 @@ const Dashboard = () => {
                   container
                   spacing={1}
                   justifyContent="center"
-                  alignItems="center">
-                  <Grid item xs={4} sx={{ margin: 2 }}>
+                  alignItems="stretch">
+                  <Grid item xs={12} sm={12} md={4} sx={{ margin: 2 }}>
                     <TextField
                       id="date"
                       type="date"
@@ -275,18 +275,19 @@ const Dashboard = () => {
                       }}
                     />
                   </Grid>
-                  <Grid item xs={8}>
+                  <Grid item xs={12} sm={8} md={8}>
                     <Grid
                       container
                       spacing={1}
+                      textAlign="center"
                       justifyContent="center"
                       alignItems="center">
-                      <Grid item xs={1}>
-                        <Typography color="#165643" variant="body2">
+                      <Grid item xs={12} sm={8} md={1}>
+                        <Typography color="#003459" variant="body2">
                           To
                         </Typography>
                       </Grid>
-                      <Grid item xs={6}>
+                      <Grid item xs={12} sm={8} md={6}>
                         <TextField
                           id="date"
                           type="date"
@@ -316,7 +317,7 @@ const Dashboard = () => {
                           }}
                         />
                       </Grid>
-                      <Grid item xs={5}>
+                      <Grid item xs={12} sm={8} md={5}>
                         <TextField
                           id="date"
                           type="date"
@@ -414,7 +415,7 @@ const Dashboard = () => {
                         variant="middle"
                         sx={{
                           height: "2px",
-                          backgroundColor: "#2D7C65",
+                          backgroundColor: "#00509d",
                           margin: "1em",
                         }}
                       />
@@ -500,7 +501,7 @@ const Dashboard = () => {
                         variant="middle"
                         sx={{
                           height: "2px",
-                          backgroundColor: "#2D7C65",
+                          backgroundColor: "#00509d",
                           margin: "1em",
                         }}
                       />
@@ -571,7 +572,7 @@ const Dashboard = () => {
                         variant="middle"
                         sx={{
                           height: "2px",
-                          backgroundColor: "#2D7C65",
+                          backgroundColor: "#00509d",
                           margin: "1em",
                         }}
                       />
@@ -706,7 +707,7 @@ const Dashboard = () => {
                   <WhiteBox>
                     <Grid container spacing={1} style={{ padding: 1 }}>
                       <Grid item xs={3}>
-                        <FrameIcon sx={{ color: "#165643 !important" }} />
+                        <FrameIcon sx={{ color: "#003459  !important" }} />
                       </Grid>
                       <Grid item xs={5}>
                         <BlackTypgraphy variant="h6">Dr. Omair</BlackTypgraphy>
@@ -724,7 +725,7 @@ const Dashboard = () => {
                   <WhiteBox>
                     <Grid container spacing={1} style={{ padding: 1 }}>
                       <Grid item xs={3}>
-                        <FrameIcon sx={{ color: "#165643 !important" }} />
+                        <FrameIcon sx={{ color: "#003459  !important" }} />
                       </Grid>
                       <Grid item xs={5}>
                         <BlackTypgraphy variant="h6">Dr. Omair</BlackTypgraphy>
@@ -742,7 +743,7 @@ const Dashboard = () => {
                   <WhiteBox>
                     <Grid container spacing={1} style={{ padding: 1 }}>
                       <Grid item xs={3}>
-                        <FrameIcon sx={{ color: "#165643 !important" }} />
+                        <FrameIcon sx={{ color: "#003459  !important" }} />
                       </Grid>
                       <Grid item xs={5}>
                         <BlackTypgraphy variant="h6">Dr. Omair</BlackTypgraphy>
@@ -760,7 +761,7 @@ const Dashboard = () => {
                   <WhiteBox>
                     <Grid container spacing={1} style={{ padding: 1 }}>
                       <Grid item xs={3}>
-                        <FrameIcon sx={{ color: "#165643 !important" }} />
+                        <FrameIcon sx={{ color: "#003459   !important" }} />
                       </Grid>
                       <Grid item xs={5}>
                         <BlackTypgraphy variant="h6">Dr. Omair</BlackTypgraphy>

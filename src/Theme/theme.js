@@ -3,21 +3,21 @@ import { createTheme } from "@material-ui/core/styles";
 const theme = createTheme({
   palette: {
     background: {
-      main: "#165643",
-      boxMain: "#F4FAFB",
-      buttonMain: "#AFDECC",
+      main: "#003459",
+      boxMain: "#E8F7FD",
+      buttonMain: "#87CEEB",
       iconMain: "#000000",
-      smallButton: "#2D7C65",
+      smallButton: "#00509d",
       name: "background",
     },
 
     text: {
-      main: "#165643",
-      secondary: "#AFFFE0",
+      main: "#003459",
+      secondary: "#90e0ef",
       navbarSec: "#B6B6B6",
       para: "#000000",
       subPara: "#978E8E",
-      smText: "#2D7C65",
+      smText: "#00509d",
       whiteType: "#FFFFFF",
       name: "text",
     },
@@ -28,8 +28,18 @@ const theme = createTheme({
       fontFamily: "Gontserrat",
       fontStyle: "normal",
       fontSize: "61px",
-      lineHeight: "91px",
-      fontWeight: "400",
+      "@media (max-width:1280px)": {
+        fontSize: "61px !important",
+        // font size for screens larger than 1280px
+      },
+      "@media (max-width:960px)": {
+        fontSize: "51px !important",
+        // font size for screens larger than 960px
+      },
+      "@media (max-width:600px)": {
+        fontSize: "41px !important",
+        // font size for screens larger than 960px
+      },
     },
     h2: {
       fontFamily: "DM Serif Display",
@@ -37,6 +47,18 @@ const theme = createTheme({
       fontSize: "49px",
       lineHeight: "67px",
       fontWeight: "400",
+      "@media (max-width:1280px)": {
+        fontSize: "49px !important",
+        // font size for screens larger than 1280px
+      },
+      "@media (max-width:960px)": {
+        fontSize: "39px !important",
+        // font size for screens larger than 960px
+      },
+      "@media (max-width:600px)": {
+        fontSize: "29px !important",
+        // font size for screens larger than 960px
+      },
     },
     h3: {
       fontFamily: "DM Serif Display",

@@ -36,7 +36,7 @@ const Navbar = (props) => {
   });
   const WelcomeTypography = styled(Typography)({
     color: theme.palette.text.main,
-    // variant: theme.typography.h2,
+    
   });
   const handleChange = (event, newValue) => {
     console.log(newValue);
@@ -69,7 +69,7 @@ const Navbar = (props) => {
     },
     lineHeight: "104.4% !important",
     fontWeight: "700 !important",
-    color: "#165643 !important",
+    color: "#003459  !important",
   };
 
   const { window } = props;
@@ -116,7 +116,7 @@ const Navbar = (props) => {
               edge="start"
               onClick={handleDrawerToggle}
               sx={{ mr: 2, display: { xs: "block", md: "none" } }}>
-              <MenuIcon sx={{ color: "#165643" }} />
+              <MenuIcon sx={{ color: "#003459 " }} />
             </IconButton>
             <Box sx={{ flex: 1 }}>
               <Toolbar
@@ -193,12 +193,12 @@ const Navbar = (props) => {
                     variant="outlined"
                     sx={{
                       background: "#E6F1F2",
-                      color: "#165643",
+                      color: "#003459",
                       borderRadius: "43px",
                       height: "3em",
                     }}
                     startIcon={
-                      <FrameIcon sx={{ color: "#165643 !important" }} />
+                      <FrameIcon sx={{ color: "#003459  !important" }} />
                     }>
                     Davis John
                   </Button>

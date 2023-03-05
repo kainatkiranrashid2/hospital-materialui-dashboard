@@ -208,7 +208,7 @@ const Opd = () => {
             </LightGreenButton>
             <Button
               style={{
-                backgroundColor: "#F4FAFB",
+                backgroundColor: "#E8F7FD",
                 // transform: Scale(2),
               }}
               borderRadius=" 50px"
@@ -216,7 +216,7 @@ const Opd = () => {
                 <DeleteOutlineIcon
                   style={{
                     height: "1em",
-                    color: "#AFDECC",
+                    color: "#87CEEB",
                   }}
                 />
               }
@@ -304,7 +304,7 @@ const Opd = () => {
                     />
                   </Grid>
                   <Grid item xs={1}>
-                    <Typography color="#165643" variant="body2">
+                    <Typography color="#003459" variant="body2">
                       To
                     </Typography>
                   </Grid>
@@ -462,7 +462,7 @@ const Opd = () => {
                 <WhiteBox theme={theme}>
                   <Grid container spacing={1} style={{ padding: 1 }}>
                     <Grid item xs={3}>
-                      <FrameIcon sx={{ color: "#165643 !important" }} />
+                      <FrameIcon sx={{ color: "#003459 !important" }} />
                     </Grid>
                     <Grid item xs={5}>
                       <BlackTypgraphy theme={theme} variant="h6">
@@ -482,7 +482,7 @@ const Opd = () => {
                 <WhiteBox theme={theme}>
                   <Grid container spacing={1} style={{ padding: 1 }}>
                     <Grid item xs={3}>
-                      <FrameIcon sx={{ color: "#165643 !important" }} />
+                      <FrameIcon sx={{ color: "#003459 !important" }} />
                     </Grid>
                     <Grid item xs={5}>
                       <BlackTypgraphy theme={theme} variant="h6">
@@ -502,7 +502,7 @@ const Opd = () => {
                 <WhiteBox>
                   <Grid container spacing={1} style={{ padding: 1 }}>
                     <Grid item xs={3}>
-                      <FrameIcon sx={{ color: "#165643 !important" }} />
+                      <FrameIcon sx={{ color: "#003459 !important" }} />
                     </Grid>
                     <Grid item xs={5}>
                       <BlackTypgraphy theme={theme} variant="h6">
@@ -522,7 +522,7 @@ const Opd = () => {
                 <WhiteBox theme={theme}>
                   <Grid container spacing={1} style={{ padding: 1 }}>
                     <Grid item xs={3}>
-                      <FrameIcon sx={{ color: "#165643 !important" }} />
+                      <FrameIcon sx={{ color: "#003459 !important" }} />
                     </Grid>
                     <Grid item xs={5}>
                       <BlackTypgraphy theme={theme} variant="h6">

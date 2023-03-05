@@ -190,7 +190,7 @@ const LabCollabs = () => {
             </LightGreenButton>
             <Button
               style={{
-                backgroundColor: "#F4FAFB",
+                backgroundColor: "#E8F7FD",
                 // transform: Scale(2),
               }}
               borderRadius=" 50px"
@@ -198,7 +198,7 @@ const LabCollabs = () => {
                 <DeleteOutlineIcon
                   style={{
                     height: "1em",
-                    color: "#AFDECC",
+                    color: "#87CEEB",
                   }}
                 />
               }
@@ -218,14 +218,14 @@ const LabCollabs = () => {
     setFilterColumn(column);
   };
   const StyledToggleButton = styled(ToggleButton)(({ theme, selected }) => ({
-    backgroundColor: selected ? "#AFDECC" : "inherit",
-    color: "#165643",
+    backgroundColor: selected ? "#87CEEB" : "inherit",
+    color: "#003459",
     "&:hover": {
-      backgroundColor: selected ? "#AFDECC;" : theme.palette.action.hover,
+      backgroundColor: selected ? "#87CEEB;" : theme.palette.action.hover,
     },
   }));
   const styleToggle = {
-    background: "#AFDECC",
+    background: "#87CEEB",
     borderRadius: "50px",
     // width: "1.5em",
     border: "none",
@@ -408,7 +408,7 @@ const LabCollabs = () => {
                   <WhiteBox theme={theme}>
                     <Grid container spacing={1} style={{ padding: 1 }}>
                       <Grid item xs={3}>
-                        <FrameIcon sx={{ color: "#165643 !important" }} />
+                        <FrameIcon sx={{ color: "#003459  !important" }} />
                       </Grid>
                       <Grid item xs={5}>
                         <BlackTypgraphy theme={theme} variant="h6">
@@ -428,7 +428,7 @@ const LabCollabs = () => {
                   <WhiteBox theme={theme}>
                     <Grid container spacing={1} style={{ padding: 1 }}>
                       <Grid item xs={3}>
-                        <FrameIcon sx={{ color: "#165643 !important" }} />
+                        <FrameIcon sx={{ color: "#003459  !important" }} />
                       </Grid>
                       <Grid item xs={5}>
                         <BlackTypgraphy theme={theme} variant="h6">
@@ -448,7 +448,7 @@ const LabCollabs = () => {
                   <WhiteBox>
                     <Grid container spacing={1} style={{ padding: 1 }}>
                       <Grid item xs={3}>
-                        <FrameIcon sx={{ color: "#165643 !important" }} />
+                        <FrameIcon sx={{ color: "#003459  !important" }} />
                       </Grid>
                       <Grid item xs={5}>
                         <BlackTypgraphy theme={theme} variant="h6">
@@ -468,7 +468,7 @@ const LabCollabs = () => {
                   <WhiteBox>
                     <Grid container spacing={1} style={{ padding: 1 }}>
                       <Grid item xs={3}>
-                        <FrameIcon sx={{ color: "#165643 !important" }} />
+                        <FrameIcon sx={{ color: "#003459  !important" }} />
                       </Grid>
                       <Grid item xs={5}>
                         <BlackTypgraphy theme={theme} variant="h6">

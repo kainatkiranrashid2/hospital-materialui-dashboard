@@ -43,7 +43,7 @@ const LoginForm = styled(Grid)(({ theme }) => ({
     marginTop: theme.spacing(2),
   },
   "& .MuiFormControlLabel-label": {
-    color: "#AFDECC",
+    color: "#87CEEB",
     fontSize: "15px !important",
     width: "100%",
     textAlign: "left",
@@ -53,14 +53,14 @@ const LoginForm = styled(Grid)(({ theme }) => ({
   },
 }));
 const CustomButton = styled(Button)({
-  background: "#AFDECC",
-  color: "#165643",
+  background: "#87CEEB",
+  color: "#003459",
   padding: "1em",
   width: "2em",
 });
 
 const Item1 = styled(Grid)(({ theme }) => ({
-  background: "#165643",
+  background: "#003459",
   [theme.breakpoints.up("md")]: {
     gridColumn: 1,
     gridRow: 1,
@@ -93,7 +93,7 @@ const Login = () => {
               variant="h2"
               style={{
                 fontStyle: "normal",
-                color: "#AFFFE0",
+                color: "#90e0ef",
                 textAlign: "left",
                 marginTop: 0,
               }}>
@@ -130,7 +130,7 @@ const Login = () => {
                   }}
                 />
               </Grid>
-              <Grid item alignItems="left" >
+              <Grid item alignItems="left">
                 <FormControlLabel
                   control={<Checkbox />}
                   label={
@@ -146,8 +146,8 @@ const Login = () => {
                     <Button
                       style={{
                         width: "10em",
-                        background: "#AFDECC",
-                        color: "#165643",
+                        background: "#87CEEB",
+                        color: "#003459",
                         fontSize: "17px",
                         lineHeight: "21px",
                         marginTop: "0",
